@@ -73,21 +73,21 @@ Mad_Genius = Villain('Angctrom Levy', 'Mad Genius','Time trevel', '200', 'Time i
 
 def print_hero_info(hero_instance):
     print(hero_instance.name_print())
-    hero_instance.health_x2(
-    print(str(hero_instance)),
-    print(f'длина фразы: {len(hero_instance.catchphrase)}\n'),
+    hero_instance.health_x2()
+    print(str(hero_instance))
+    print(f'длина фразы: {len(hero_instance.catchphrase)}\n')
 
-print_hero_info(invincible),
-print_hero_info(Omni_man),
-print_hero_info(allen_the_alien),
-print_hero_info(Mad_Genius),
-
-print(allen_the_alien.NewPhrase()),
-print(Omni_man.Fact()),
-print(allen_the_alien.Fact()),
-print(Omni_man.Crit()),
-print(allen_the_alien.Crit()),
-print(Mad_Genius.Crit()),
+print_hero_info(invincible)
+print_hero_info(Omni_man)
+print_hero_info(allen_the_alien)
+print_hero_info(Mad_Genius)
+        
+print(allen_the_alien.NewPhrase())
+print(Omni_man.Fact())
+print(allen_the_alien.Fact())
+print(Omni_man.Crit())
+print(allen_the_alien.Crit())
+print(Mad_Genius.Crit())
 
 
 
